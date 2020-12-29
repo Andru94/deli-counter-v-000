@@ -5,7 +5,7 @@ def line(array)
     i = 1
     list = []
     array.each do |customer|
-      list <<"#{i}. #{customer}"
+      list.append("#{i}. #{customer}")
       i +=1
     end
     puts "#{list}"
