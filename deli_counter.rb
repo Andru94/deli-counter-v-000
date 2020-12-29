@@ -5,11 +5,9 @@ def line(array)
     i = 1
     list = []
     array.each do |customer|
-      list.append("#{i}. #{customer}")
+      puts ("#{i}. #{customer}")
       i +=1
     end
-    list.each do |consumer|
-      puts "The line is currently: #{list.each{consumer}}"
   else
     puts "The line is currently empty."
   end
