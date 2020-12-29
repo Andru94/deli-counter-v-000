@@ -20,7 +20,7 @@ def take_a_number(array, name)
   katz_deli << "#{name}"
 end
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.length()>0
     katz_deli.shift
   else
