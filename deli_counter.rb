@@ -21,8 +21,8 @@ end
 
 
 def take_a_number(array, name)
-  katz_deli.append(name)
-  puts "Welcome, #{name}. You are number #{array.length()+1} in line."
+  array.append(name)
+  puts "Welcome, #{name}. You are number #{array.length()} in line."
 end
 
 def now_serving(array)
