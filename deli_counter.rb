@@ -6,7 +6,7 @@ def line(array)
     list = []
     while i<= array.length
       array.each do |customer|
-        puts ("#{i}. #{customer}")
+        puts ("The line is currently: #{i}. #{customer}")
         i +=1
       end
     end
