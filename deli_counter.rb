@@ -4,12 +4,13 @@ def line(array)
   if array.length() > 0
     i = 1
     list = []
-    while i <= array.length
-    str = "The line is currently"
     array.each do |customer|
       list <<"#{i}. #{customer}"
       i +=1
     end
+    puts "#{list}"
+  else
+    puts "The line is empty"
   end
 end
     #puts 'The line is currently empty.'
