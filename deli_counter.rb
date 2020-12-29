@@ -8,7 +8,8 @@ def line(array)
       list.append("#{i}. #{customer}")
       i +=1
     end
-    puts "The line is currently: #{list}"
+    list.each do |consumer|
+      puts "The line is currently: #{list}"
   else
     puts "The line is currently empty."
   end
