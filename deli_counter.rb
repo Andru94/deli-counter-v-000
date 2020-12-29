@@ -10,7 +10,7 @@ def line(array)
     end
     puts "#{list}"
   else
-    puts "The line is empty"
+    puts "The line is currently empty."
   end
 end
     #puts 'The line is currently empty.'
