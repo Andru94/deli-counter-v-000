@@ -21,8 +21,9 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  if katz_deli.length()>0
-    katz_deli.shift
+  if array.length()>0
+    array.shift
   else
     "There is nobody waiting to be served!"
   end
+end
