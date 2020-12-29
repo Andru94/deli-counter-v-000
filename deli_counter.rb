@@ -11,6 +11,7 @@ def line(array)
         str2 + "#{i}. #{customer}"
         i +=1
       end
+      puts str+str2
     end
     puts str + str2
   else
