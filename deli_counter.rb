@@ -4,9 +4,10 @@ def line(array)
   if array.length() > 0
     i = 1
     list = []
+    str = 'The line is currently:'
     while i<= array.length
       array.each do |customer|
-        puts ("The line is currently: #{i}. #{customer}")
+        puts (str + "#{i}. #{customer}")
         i +=1
       end
     end
