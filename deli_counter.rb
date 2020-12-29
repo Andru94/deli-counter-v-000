@@ -4,9 +4,11 @@ def line(array)
   if array.length() > 0
     i = 1
     list = []
-    array.each do |customer|
-      puts ("#{i}. #{customer}")
-      i +=1
+    while i<= array.length
+      array.each do |customer|
+        puts ("#{i}. #{customer}")
+        i +=1
+      end
     end
   else
     puts "The line is currently empty."
