@@ -9,7 +9,7 @@ def line(array)
       i +=1
     end
     list.each do |consumer|
-      puts "The line is currently: #{list}"
+      puts "The line is currently: #{list.}"
   else
     puts "The line is currently empty."
   end
