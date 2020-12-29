@@ -8,10 +8,9 @@ def line(array)
     str2 = ''
     while i<= array.length
       array.each do |customer|
-        str2 + "#{i}. #{customer}"
+        str2 = str2 + "#{i}. #{customer}"
         i +=1
       end
-      puts str+str2
     end
     puts str + str2
   else
