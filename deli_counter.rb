@@ -12,6 +12,7 @@ def line(array)
         i +=1
       end
     end
+    puts str + str2
   else
     puts "The line is currently empty."
   end
