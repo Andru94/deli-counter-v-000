@@ -8,7 +8,7 @@ def line(array)
       list.append("#{i}. #{customer}")
       i +=1
     end
-    puts "#{list}"
+    puts "The line is currently: #{list}"
   else
     puts "The line is currently empty."
   end
