@@ -19,3 +19,11 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length()+1} in line."
   katz_deli << "#{name}"
 end
+
+def now_serving(array)
+  if array.length()>0
+    array.shift
+  else
+    "There is nobody waiting to be served!"
+  end
+end
